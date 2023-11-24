@@ -1,9 +1,12 @@
 import { SignUpButton, ConnectBtn } from "./Button";
+import { Link } from "react-router-dom";
+
+
 const DoctorRegister = () => {
     return(
 
         <main className="flex justify-center items-center">
-  <form action="" className=" bg-purple-background-form text-border-form  m-4 mr-10 p-10 h-2/6 rounded-3xl shadow-2xl shadow-purple-button-first sm:max sm:m-36">
+     <form action="" className=" bg-purple-background-form text-border-form  m-4 mr-10 p-10 h-2/6 rounded-3xl shadow-2xl shadow-purple-button-first sm:max sm:m-36">
   <div className='flex justify-center items-center font-extralight p-10 sm:p-5 md:p-7 lg:p-10 xl:p-14 flex-col'>
       <h3 className="text-4xl font-bold mb-px">Patients SignUp</h3>
     </div>
@@ -39,6 +42,9 @@ const DoctorRegister = () => {
      </div> 
     </div>
     <div className='flex justify-center items-center'><SignUpButton buttonText="Sign Up" /></div>
+    <div>
+    <p className='text-center text-xs font-extralight'>Already have an account?<Link to={'/signindoctor'}> Click Me</Link></p>
+  </div>
     </form>
 </main>
     )

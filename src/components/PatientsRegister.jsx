@@ -4,12 +4,9 @@ import Web3 from 'web3';
 import '../index.css'
 import { ConnectBtn, SignUpButton } from './Button'
 import ContractJson from '../Healthcare.json'
-import SignIn from './PatientsSign';
+
 
 function PRegister() {
-
-
-
   return (
 <main className="flex justify-center items-center">
   <form action="" className=" bg-purple-background-form text-border-form  m-4 mr-10 p-10 h-2/6 rounded-3xl shadow-2xl shadow-purple-button-first sm:max sm:m-36">
@@ -49,10 +46,7 @@ function PRegister() {
     </div>
     <div className='flex justify-center items-center'><SignUpButton buttonText="Sign Up" /></div>
     <div>
-      <p className='text-center text-xs font-extralight'>Already have an account?<Link to={'/signin'}> Click Me</Link></p>
-    {/* <span onClick={()=>{
-      navigate('/signin')
-    }}>Click Me</span> */}
+      <p className='text-center text-xs font-extralight'>Already have an account?<Link to={'/signinpatient'}> Click Me</Link></p>
     </div>
   </form>
 </main>
