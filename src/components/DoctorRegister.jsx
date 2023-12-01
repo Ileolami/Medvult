@@ -8,7 +8,7 @@ const DoctorRegister = () => {
         <main className="flex justify-center items-center">
      <form action="" className=" bg-purple-background-form text-border-form  m-4 mr-10 p-10 h-2/6 rounded-3xl shadow-2xl shadow-purple-button-first sm:max sm:m-36">
   <div className='flex justify-center items-center font-extralight p-10 sm:p-5 md:p-7 lg:p-10 xl:p-14 flex-col'>
-      <h3 className="text-4xl font-bold mb-px">Patients SignUp</h3>
+      <h3 className="text-4xl font-bold mb-px">Doctors SignUp</h3>
     </div>
     <div className='flex flex-col items-center  sm:flex-row sm:items-end sm:gap-3'>
       <div className='flex flex-col justify-center items-center'>
