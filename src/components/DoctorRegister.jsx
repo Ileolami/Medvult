@@ -21,7 +21,7 @@ const DoctorRegister = () => {
           <label htmlFor="" >First Name:</label>
           <input className=" rounded-lg h-8 w-80 p-4 text-left" type="text" placeholder='Enter first name'/>
           <label htmlFor="">Specialization</label>
-          <input className=" rounded-lg h-8 w-80 p-4 text-left" type='date' />
+          <input className=" rounded-lg h-8 w-80 p-4 text-left" type='text' />
           <label htmlFor="">City</label>
           <input className=" rounded-lg h-8 w-80 p-4 text-left"  type="text" placeholder='Enter city'/>
           <label htmlFor="">Password</label>
